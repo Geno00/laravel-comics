@@ -1,0 +1,155 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap);:root {
+    --primary-color:#0282f9;
+    --secondary-color:#1c1c1c;
+    --terzo-color: #303030;
+    --white: #ffff;
+    --container-md: 75rem ;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    list-style: none;
+    background-color: white;
+    height: 7.5rem;
+    justify-content: center;
+  }
+  .header__container {
+    display: flex;
+    list-style: none;
+    margin: auto;
+    width: 100%;
+    max-width: var(--container-md);
+    align-items: center;
+  }
+  .header__logo {
+    width: 50%;
+  }
+  .header__nav ul {
+    display: flex;
+    list-style: none;
+  }
+  .header__nav ul a {
+    color: var(--terzo-color);
+    margin: 0.625rem;
+    padding-bottom: 2.75rem;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .header__nav ul .active a:hover {
+    border-bottom: 0.3125rem solid var(--primary-color);
+    color: var(--primary-color);
+  }
+  
+  .footer {
+    height: 150px;
+    background-color: var(--primary-color);
+  }
+  .footer__container {
+    margin: auto;
+    width: var(--container-md);
+    display: flex;
+    list-style: none;
+  }
+  .footer__container-1 {
+    margin: auto;
+    width: var(--container-md);
+    align-items: center;
+    display: flex;
+    list-style: none;
+    height: 120px;
+    justify-content: space-between;
+  }
+  .footer__top {
+    width: 100vw;
+    height: 150px;
+    background-color: var(--primary-color);
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+  }
+  .footer__top img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    padding: 50px;
+  }
+  .footer__mid {
+    display: flex;
+    list-style: none;
+    background-image: url("../img/footer-bg.jpg");
+    height: 300px;
+    margin: auto;
+  }
+  .footer__sx {
+    height: 100px;
+    width: 35%;
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .footer__dx {
+    background-image: url("../img/dc-logo-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 65%;
+  }
+  .footer p {
+    color: var(--white);
+    margin-top: 65px;
+  }
+  .footer .text-footer {
+    width: 30%;
+    padding: 10px;
+    margin-top: 10px;
+    color: var(--white);
+  }
+  .footer__bottom {
+    background-color: var(--terzo-color);
+    height: 120px;
+  }
+  .footer .sign-up {
+    border: 3px solid var(--primary-color);
+    padding: 8px;
+    color: var(--white);
+  }
+  .footer .follow-us {
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+  .footer .follow-us span {
+    color: var(--primary-color);
+    font-size: 20px;
+    margin-right: 8px;
+  }
+  .footer .follow-us img {
+    margin: 6px;
+  }
+  
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: var(--container-md);
+    margin: auto;
+  }
+  
+  .film {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  img {
+    width: 30px;
+  }
